@@ -1,17 +1,28 @@
 .App {
   text-align: center;
+  background-color: #F3F3F5;
+  color: #000000;
+  font-family: 'Montserrat';
+}
+html{
+  background-color: #F3F3F5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  padding-bottom: 2rem;
+  margin-top: 0;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div{
+  padding: 0;
 }
+
+.footer{
+  padding-top: 10rem;
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +39,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
