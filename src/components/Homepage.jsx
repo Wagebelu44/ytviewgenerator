@@ -11,8 +11,8 @@ const Homepage = () => {
   const [link, setlink] = useState();
 
   const opts = {
-    height: "200",
-    width: "450",
+    height: "220",
+    width: "480",
     border:0,
     padding:0,
     playerVars: {
