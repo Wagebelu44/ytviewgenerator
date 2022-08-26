@@ -12,7 +12,7 @@ const Homepage = () => {
 
   const opts = {
     height: "220",
-    width: "500",
+    width: "550",
     border:0,
     padding:0,
     playerVars: {
