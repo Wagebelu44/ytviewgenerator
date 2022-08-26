@@ -66,7 +66,7 @@ const Homepage = () => {
       <Grid container spacing={.5} columns={{ xs: 1, sm: 6, md: 12 }} mt={3}>
       {[...Array(committedFieldsToAdd)].map(( index) => (
         
-        <Grid item xs={1} sm={12} md={3} lg={2}  key={index}>
+        <Grid item xs={1} sm={12} md={6} lg={2}  key={index}>
         <YouTube videoId={link} opts={opts} />
       </Grid>
       ))}
